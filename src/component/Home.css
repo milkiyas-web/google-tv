@@ -1,0 +1,66 @@
+.home {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+.home__title {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+.home__logo {
+  object-fit: contain;
+  width: 100px;
+}
+.home__text {
+  font-size: 60px;
+  margin-left: 50px;
+  line-height: 120px;
+  text-align: center;
+}
+.home__container {
+  margin-top: 245px;
+  display: flex;
+}
+.home__col {
+}
+.home__col img {
+  object-fit: contain;
+  width: 500px;
+  padding: 8px;
+  border-radius: 15px;
+  opacity: 0;
+}
+video {
+  z-index: 1;
+  transform: translateY(-300px);
+}
+.home__firstII {
+  opacity: 0;
+}
+.home__thirdII {
+  opacity: 0;
+}
+.home__seventhII {
+  opacity: 0;
+}
+.home__deviceWrapper {
+  margin-top: 500px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.home__deviceWrapper > img {
+  width: 900px;
+  object-fit: contain;
+  border: 4px solid rgb(46, 46, 46);
+}
+.home__deviceWrapper > h1 {
+  font-size: 45px;
+  margin-left: 100px;
+}
